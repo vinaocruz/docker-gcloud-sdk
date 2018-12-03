@@ -1,6 +1,6 @@
 FROM python:2.7-alpine3.7
 
-ENV CLOUD_SDK_VERSION 200.0.0
+ENV CLOUD_SDK_VERSION 217.0.0
 ENV GCLOUD_FILE google-cloud-sdk-${CLOUD_SDK_VERSION}-linux-x86_64.tar.gz
 
 RUN apk add --no-cache \
